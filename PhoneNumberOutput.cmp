@@ -2,3 +2,4 @@
     <aura:attribute name="number" type="String" default="No Phone Number"/>
     <ui:outputText aura:id="phone" value="{!v.number}"/>
 </aura:component>
+echo "success"
