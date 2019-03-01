@@ -30,7 +30,11 @@ public class VerifyDate {
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo "date is verified"
 =======
 
 >>>>>>> msg
+=======
+echo "date is verified"
+>>>>>>> testing
