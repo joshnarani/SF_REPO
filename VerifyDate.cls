@@ -29,4 +29,4 @@ public class VerifyDate {
 	}
 
 }
-echo "test"
+echo "date is verified"
