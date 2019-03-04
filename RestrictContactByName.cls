@@ -12,4 +12,3 @@ trigger RestrictContactByName on Contact (before insert, before update) {
 
 }
 
-echo "input name"
