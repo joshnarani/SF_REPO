@@ -32,6 +32,7 @@ public class VerifyDate {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo "date is verified"
 =======
 
@@ -42,3 +43,6 @@ echo "date is verified"
 =======
 echo "date is verified"
 >>>>>>> changes
+=======
+echo "date is verified"
+>>>>>>> integrate
