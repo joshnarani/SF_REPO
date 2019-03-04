@@ -30,6 +30,7 @@ public class VerifyDate {
 
 }
 echo "changes in feature1"
+<<<<<<< HEAD
 
 
 
@@ -50,3 +51,5 @@ echo "changes in feature1"
 
 
 
+=======
+>>>>>>> 0d935e8267a90e80539a7433097cee65b701c83c
