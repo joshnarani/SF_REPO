@@ -29,24 +29,24 @@ public class VerifyDate {
 	}
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-echo "date is verified"
-=======
+echo "changes in feature1"
 
->>>>>>> msg
-=======
-echo "date is verified"
->>>>>>> testing
-=======
-echo "date is verified"
->>>>>>> changes
-=======
-echo "date is verified"
->>>>>>> integrate
-=======
 
->>>>>>> 4535208a2a97dc68543d8a5b42aed7d2a3d83b94
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
