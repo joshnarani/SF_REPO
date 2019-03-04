@@ -29,4 +29,8 @@ public class VerifyDate {
 	}
 
 }
+<<<<<<< HEAD
 echo "date is verified"
+=======
+
+>>>>>>> feature
