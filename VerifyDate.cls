@@ -29,12 +29,7 @@ public class VerifyDate {
 	}
 
 }
-<<<<<<< HEAD
 echo "changes in feature1 that should go to integrate branch"
-=======
-
-
 
 echo "changes in feature that may go to integrate"
->>>>>>> feature
 
