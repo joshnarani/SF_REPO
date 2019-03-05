@@ -29,8 +29,12 @@ public class VerifyDate {
 	}
 
 }
+<<<<<<< HEAD
 
 
 
 echo "changes in feature1"
 
+=======
+echo "changes in feature1 that should go to integrate branch"
+>>>>>>> feature1
