@@ -32,5 +32,5 @@ public class VerifyDate {
 
 
 
-echo "changes in feature that may go to integrate for testing"
+echo "changes in feature that may go to integrate"
 
