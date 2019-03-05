@@ -29,4 +29,4 @@ public class VerifyDate {
 	}
 
 }
-echo "changes in feature1 that should go to integrate branch"
+echo "changes in feature1 that should go to integrate branch for testing"
