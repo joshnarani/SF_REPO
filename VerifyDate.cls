@@ -29,11 +29,9 @@ public class VerifyDate {
 	}
 
 }
-<<<<<<< .merge_file_a03572
 echo "changes in feature1 that should go to integrate branch"
 
 echo "changes in feature that may go to integrate"
 
-=======
 echo "changes in feature1 that should go to integrate branch for testing"
->>>>>>> .merge_file_a02744
+
