@@ -21,18 +21,20 @@ public class VerifyDate {
 		else { return true; }
 	}
 
-	//method to return the end of the month of a given date
+//method to return the end of the month of a given date
 	private static Date SetEndOfMonthDate(Date date1) {
 		Integer totalDays = Date.daysInMonth(date1.year(), date1.month());
 		Date lastDay = Date.newInstance(date1.year(), date1.month(), totalDays);
 
 		System.debug('Testing for Feature ----');
 		system.debug('testing in feature2....');
-		system.debug('testing in feature2 again recheck....');
+                system.debug('test');
 
-	system.debug('test');
-	
-	}
+
+		system.debug('testing in feature2 again retesting and rechecking....');
+		system.debug('testing');
+		return lastDay;
+}
 
 }
 
