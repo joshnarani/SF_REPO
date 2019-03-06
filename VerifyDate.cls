@@ -26,10 +26,11 @@ public class VerifyDate {
 		Integer totalDays = Date.daysInMonth(date1.year(), date1.month());
 		Date lastDay = Date.newInstance(date1.year(), date1.month(), totalDays);
 		System.debug('Testing for Feature ----');
+		system.debug('testing in feature2....');
 		return lastDay;
 	}
 
 }
-echo "changes in feature1"
 
+echo "changes in feature1"
 
