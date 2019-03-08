@@ -1,2 +1,2 @@
 # trailhead-code-samples
-echo "merging from feature2 to integrate"
+echo "merging feature2 into integrate"
