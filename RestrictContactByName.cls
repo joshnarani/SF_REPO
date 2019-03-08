@@ -12,4 +12,4 @@ trigger RestrictContactByName on Contact (before insert, before update) {
 
 
 }
-echo "msg"
+echo "msg should be passed"
