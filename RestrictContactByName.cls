@@ -5,7 +5,7 @@ trigger RestrictContactByName on Contact (before insert, before update) {
 		if(c.LastName == 'INVALIDNAME') {	//invalidname is invalid
 			c.AddError('The Last Name "'+c.LastName+'" is not allowed for DML');
 		}
-
+	system.debug('testing to merge from feature1 to integrate')
 	}
 
 

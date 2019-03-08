@@ -139,6 +139,7 @@ public class trailheadAPIChallenge {
             } catch(System.CalloutException e) {
                 System.debug('Callout error: '+ e);
                 System.debug(res.toString());
+		System.debug('testing to merge from feature1 to integrate')
             }
      }
 }
