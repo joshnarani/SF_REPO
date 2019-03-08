@@ -28,6 +28,8 @@ public class VerifyDate {
 		system.debug('testing to merge from feature1 branch to integrate......fine');
 		echo"no conflicts has been raised while merging"
 		system.debug('merging has to be done');
+		system.debug('testing the merge....');
+		system.debug('testing in feature2 again retesting and rechecking....');
 		return lastDay;
 }
 
