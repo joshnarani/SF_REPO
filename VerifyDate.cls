@@ -30,6 +30,8 @@ public class VerifyDate {
 		system.debug('merging has to be done');
 		system.debug('testing the merge....');
 		system.debug('testing in feature2 again retesting and rechecking....');
+		system.debug('testing the merge from branch o branch....');
+		system.debug('testing the merge from feature2 to integrate....');
 		return lastDay;
 }
 
