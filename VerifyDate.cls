@@ -25,9 +25,8 @@ public class VerifyDate {
 	private static Date SetEndOfMonthDate(Date date1) {
 		Integer totalDays = Date.daysInMonth(date1.year(), date1.month());
 		Date lastDay = Date.newInstance(date1.year(), date1.month(), totalDays);
-		system.debug('testing in feature2....');
+		system.debug('testing the merge....');
 		system.debug('testing in feature2 again retesting and rechecking....');
-		system.debug('testing');
 		return lastDay;
 	}
 
