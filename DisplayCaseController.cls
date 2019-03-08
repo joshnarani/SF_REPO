@@ -12,6 +12,7 @@ public class DisplayCaseController {
             return [SELECT ID, Subject, Description, STATUS from Case LIMIT 1];
         } else {
             return cases[0];
+            system.debug('testing the merge in integrate')
         }        
     }
     
