@@ -27,7 +27,7 @@ public class VerifyDate {
 		Date lastDay = Date.newInstance(date1.year(), date1.month(), totalDays);
 		system.debug('testing to merge from feature1 branch to integrate......fine');
 		echo"no conflicts has been raised while merging"
-		system.debug('merging has to be done');
+		system.debug('merging has to be done.... jenkins-test');
 		return lastDay;
 	}
 
