@@ -25,7 +25,7 @@ public class VerifyDate {
 	private static Date SetEndOfMonthDate(Date date1) {
 		Integer totalDays = Date.daysInMonth(date1.year(), date1.month());
 		Date lastDay = Date.newInstance(date1.year(), date1.month(), totalDays);
-		System.debug('Testing for Feature ----');
+		System.debug('Testing for jenkins merge----');
 		return lastDay;
 	}
 
