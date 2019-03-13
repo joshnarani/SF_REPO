@@ -1,5 +1,5 @@
 public class VerifyDate {
-	
+
 	//method to handle potential checks against two dates
 	public static Date CheckDates(Date date1, Date date2) {
 		//if date2 is within the next 30 days of date1, use date2.  Otherwise use the end of the month
@@ -9,12 +9,12 @@ public class VerifyDate {
 			return SetEndOfMonthDate(date1);
 		}
 	}
-	
+
 	//method to check if date2 is within the next 30 days of date1
 	private static Boolean DateWithin30Days(Date date1, Date date2) {
 		//check for date2 being in the past
         	if( date2 < date1) { return false; }
-        
+
         	//check that date2 is within (>=) 30 days of date1
         	Date date30Days = date1.addDays(30); //create a date 30 days away from date1
 		if( date2 >= date30Days ) { return false; }
@@ -25,6 +25,7 @@ public class VerifyDate {
 	private static Date SetEndOfMonthDate(Date date1) {
 		Integer totalDays = Date.daysInMonth(date1.year(), date1.month());
 		Date lastDay = Date.newInstance(date1.year(), date1.month(), totalDays);
+
 		system.debug('testing to merge from feature1 branch to integrate......fine');
 		echo"no conflicts has been raised while merging"
 		system.debug('merging has to be done');
@@ -34,8 +35,8 @@ public class VerifyDate {
 		system.debug('merge from feature2 to integrate....');
 		echo "merge"
 		system.debug('merging has to be done.... jenkins-test');
+
 		return lastDay;
 }
 
 }
-
