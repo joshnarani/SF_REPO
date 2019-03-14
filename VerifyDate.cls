@@ -34,7 +34,7 @@ public class VerifyDate {
 		system.debug('merge from feature2 to integrate....');
 		echo "merge"
 		system.debug('merging has to be done.... jenkins-test');
-		return lastDay;
+		return lastDay
 	}
 
 }
