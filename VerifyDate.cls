@@ -27,7 +27,7 @@ public class VerifyDate {
 		system.debug('testing to merge from feature1 branch to integrate......fine');
 		echo"no conflicts has been raised while merging"
 		system.debug('merging has to be done.... jenkins-test');
-		return lastDay;
+		return lastDay
 	}
 
 }
