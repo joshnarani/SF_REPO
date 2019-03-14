@@ -9,14 +9,8 @@ public class VerifyDate {
 			return SetEndOfMonthDate(date1);
 		}
 	}
-<<<<<<< HEAD
 
-	//method to check if date2 is within the next 30 days of date1
-	private static Boolean DateWithin30Days(Date date1, Date date2) {
-=======
-	
 		private static Boolean DateWithin30Days(Date date1, Date date2) {
->>>>>>> feature1
 		//check for date2 being in the past
         	if( date2 < date1) { return false; }
 
@@ -40,13 +34,7 @@ public class VerifyDate {
 		system.debug('merge from feature2 to integrate....');
 		echo "merge"
 		system.debug('merging has to be done.... jenkins-test');
-<<<<<<< HEAD
-
 		return lastDay;
-}
-=======
-		return lastDay
 	}
->>>>>>> feature1
 
 }
