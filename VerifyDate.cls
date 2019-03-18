@@ -25,6 +25,7 @@ public class VerifyDate {
 	private static Date SetEndOfMonthDate(Date date1) {
 		Integer totalDays = Date.daysInMonth(date1.year(), date1.month());
 		Date lastDay = Date.newInstance(date1.year(), date1.month(), totalDays);
+
 		system.debug('testing to merge from feature1 branch to integrate......fine');
 		echo"no conflicts has been raised while merging"
 		system.debug('merging has to be done');
@@ -34,6 +35,8 @@ public class VerifyDate {
 		system.debug('merge from feature2 to integrate....');
 		echo "merge"
 		system.debug('merging has to be done.... jenkins-test');
+		System.debug('Testing for jenkins merge----');
+		System.debug('test')
 		return lastDay;
 }
 
