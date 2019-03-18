@@ -35,6 +35,9 @@ public class VerifyDate {
 		echo "merge"
 		system.debug('merging has to be done.... jenkins-test');
 		return lastDay
+		System.debug('Testing for jenkins merge----');
+		System.debug('test')
+		return lastDay;
 	}
 
 }
