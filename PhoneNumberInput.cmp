@@ -4,5 +4,5 @@
 </aura:component>
 echo "testing to merge in integrate"
 echo"success-jenkins"
-system.debug('test');
+system.debug('testing purpose');
 
