@@ -3,4 +3,3 @@
     <ui:button label="Show Phone" />
 </aura:component>
 system.debug('merge test');
-
