@@ -3,4 +3,4 @@
     <ui:button label="Show Phone" />
 </aura:component>
 echo"success-jenkins"
-system.debug('test');
+system.debug('testing purpose');
