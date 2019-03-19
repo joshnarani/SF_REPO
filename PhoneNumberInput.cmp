@@ -2,4 +2,4 @@
     <ui:inputPhone aura:id="phone" label="phone" />
     <ui:button label="Show Phone" />
 </aura:component>
-system.debug('merge test');
+system.debug('merge test for no conflicts');
